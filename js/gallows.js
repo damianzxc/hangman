@@ -44,6 +44,7 @@ function hitted(letter) {
 function mishitted(letter) {
     no.play();
     hideLetter(letter);
+    attempt++;
    
     var picture = "img/" + attempt + ".jpg";
     document.getElementById("gallows").innerHTML = '<img src="'+picture+'" alt="" />';
@@ -76,12 +77,11 @@ function check(letter) {
     }
     else {
         mishitted(letter);
-         attempt++;
     }
     if(encoded == word) {
         gameOver("Success!");
     }
-    if(attempt >= 12) {
+    if(attempt >= 11) {
         gameOver("Przegrana, prawidłowe hasło: "+word);
     }
 }
