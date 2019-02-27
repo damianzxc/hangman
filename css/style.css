@@ -17,7 +17,7 @@ body {
     text-align: center;
     font-size: 48px;
     min-height: 60px;
-    letter-spacing: 15px;
+    letter-spacing: 5px;
 }
 
 #gallows {
@@ -68,4 +68,12 @@ body {
 #clock {
 	text-align: center;
 	font-size: 15px;
+}
+
+.reset {
+    cursor: pointer;
+}
+
+.reset:hover {
+    color: green;
 }

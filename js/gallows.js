@@ -57,7 +57,8 @@ function hideLetter(letter) {
 }
 
 function gameOver(message) {
-    document.getElementById("alphabet").innerHTML = message;
+    document.getElementById("alphabet").innerHTML = message+
+        '<br/><br/><span class="reset" onclick="location.reload()">Jeszcze raz?</span>';
 }
 
 function check(letter) {
