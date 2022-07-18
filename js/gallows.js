@@ -1,5 +1,5 @@
 var alphabet = "AĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŻŹ";
-var word = "Odkoduj z nami swoją przyszłość".toUpperCase();
+var word = "Co ma wisieć nie utonie".toUpperCase();
 var encoded = "";
 var attempt = 0;
 
